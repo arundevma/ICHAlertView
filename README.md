@@ -9,7 +9,8 @@ Usage
 Drag ICHAlertView.h and .m to your project and import it.
 Then use.
 
-[ICHAlertView showAlertWithTiTle:@"AlertView" message:@"Very simple to use." cancelButtonTitle:@"Cancel" withCompletionBlock:^(NSInteger index) {
+
+    [ICHAlertView showAlertWithTiTle:@"AlertView" message:@"Very simple to use." cancelButtonTitle:@"Cancel" withCompletionBlock:^(NSInteger index) {
         
         //When user taps any button other than cancel button
     } andCancelBlock:^{
