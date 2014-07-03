@@ -28,13 +28,13 @@
 }
 - (IBAction)buttonTapped:(id)sender
 {
-    [ICHAlertView showAlertWithTiTle:@"AlertView" message:@"Very simple to use." cancelButtonTitle:@"Cancel" withCompletionBlock:^(NSInteger index) {
+    [ICHAlertView showAlertWithTiTle:@"AlertView" message:@"This is a sample message." cancelButtonTitle:@"Cancel" otherButtonTitles:@[@"Ok"] withCompletionBlock:^(NSInteger index) {
         
         
     } andCancelBlock:^{
         
         
-    } otherButtonTitles:@[@"Ok"]];
+    } ];
 }
 
 @end
