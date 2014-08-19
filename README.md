@@ -11,10 +11,10 @@ Drag ICHAlertView.h and .m to your project and import it.
 Then use:
 
 
-    [ICHAlertView showAlertWithTiTle:@"AlertView" message:@"Very simple to use." cancelButtonTitle:@"Cancel" withCompletionBlock:^(NSInteger index) {
+    [ICHAlertView showAlertWithTiTle:@"AlertView" message:@"This is a sample message." cancelButtonTitle:@"Cancel" otherButtonTitles:@[@"Ok"] withCompletionBlock:^(NSInteger index) {
         
-        //When user taps any button other than cancel button
+        
     } andCancelBlock:^{
         
-        //When user taps cancel button in alert view
-    } otherButtonTitles:@[@"Ok"]];
+        
+    } ];
